@@ -1,0 +1,16 @@
+import styled from 'styled-components'
+
+export const Container = styled.button`
+  width: 100%;
+  background-color: ${({ theme }) => theme.COLORS.WHITE_SMOKE};
+
+  height: 56px;
+  border: 0;
+  padding: 0 16px;
+  border-radius: 1rem;
+  font-weight: 500;
+
+  :hover {
+    background-color: ${({ theme }) => theme.COLORS.BLUE};
+  }
+`
